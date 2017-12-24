@@ -31,7 +31,9 @@ libraryDependencies ++= Seq(
   "io.circe" %% "circe-core" % "0.9.0-M2",
   "io.circe" %% "circe-generic" % "0.9.0-M2",
   "io.circe" %% "circe-parser" % "0.9.0-M2",
-  "org.scala-lang" % "scala-library" % "2.12.3"
+  "org.scala-lang" % "scala-library" % "2.12.3",
+  "com.typesafe.akka" %% "akka-http" % "10.1.0-RC1",
+  "com.typesafe.akka" %% "akka-stream" % "2.5.8"
 )
 
 /** Make sure to fork on run */
